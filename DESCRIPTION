@@ -1,13 +1,12 @@
 Package: Guillen
-Title: What the Package Does (One Line, Title Case)
+Title: Simple Data Cleaning Tools
 Version: 0.0.0.9000
 Authors@R: 
     person("Priscilla", "Guillen", , "p.guillen@usf.edu", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: This package provides simple functions for cleaning data in R, including 
+  removing missing values, standardizing column names, and removing duplicate rows.
 Depends: R (>= 3.1.2)
-Imports: ggplot2, dplyr
 License: CC0
 LazyData: true
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Encoding: UTF-8

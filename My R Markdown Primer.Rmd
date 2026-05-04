@@ -1,0 +1,38 @@
+---
+title: "My R Markdown Primer"
+author: "Priscilla Guillen"
+date: "2026-05-04"
+output: html_document
+---
+
+## Introduction
+R Markdown is a tool used to combine code, output, and text into one document. It 
+allows users to create reports that are reproducible and easy to understand.
+
+## Explanation
+Using R Markdown makes it easier to organize analysis because everything is in one
+place. Instead of writing code seperately, users can explain their process while 
+showing results
+
+## Math example
+Inline equation $a + b = c$
+Displayed equation:
+$$
+x = \frac{a + b}{2}
+$$
+
+```{r}
+data("iris")
+head(iris)
+
+```
+
+```{r}
+summary(iris)
+plot(iris$Petal.Length, iris$Petal.Width)
+```
+
+## Conclusion
+Using R Markdown was helpful because it allows me to combine code and explanations
+in one document. It makes analysis more clear and organized.
+
